@@ -101,3 +101,23 @@ Ensure your database server (MySQL) is running and the database exists.
 8. Test the application and api
 - The application will be available at: http://localhost:8000
 - The api will be available at: http://localhost:8000/api
+
+## Project structure
+
+```bash
+Request-Management-System/
+├── app/
+│   ├── Http/             # Controllers
+│   ├── Models/           # Eloquent models representing database tables
+│   ├── Policies/         # Authorization rules
+├── resources/            # Blade views, CSS, JS
+├── routes/               # Web and API routes
+├── database/             # Migrations, Seeders
+├── config/               # Application configuration
+├── .env                  # Environment variables
+├── artisan               # CLI commands
+└── composer.json         # Dependencies
+```
+
+## License
+This project is licensed under the MIT License.
