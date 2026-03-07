@@ -68,7 +68,7 @@ Make sure Composer and and Node.js are installed, then run:
 ```bash
    composer install
    npm install
-   npm run bild
+   npm run build
 ```
 4. Configure Environment
 
